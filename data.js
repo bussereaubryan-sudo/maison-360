@@ -1,708 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-mezz-sans-prenoms",
-      "name": "mezz sans prenoms",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.21537071158240906,
-          "pitch": 0.40773721740661806,
-          "rotation": 0,
-          "target": "9-salle-de-bain"
-        },
-        {
-          "yaw": 0.1469054445297111,
-          "pitch": 0.3856178266320178,
-          "rotation": 0,
-          "target": "8-buanderie"
-        },
-        {
-          "yaw": 0.8647425858704825,
-          "pitch": 0.44930042486002364,
-          "rotation": 0,
-          "target": "7-chambre-3"
-        },
-        {
-          "yaw": 1.4647640221848386,
-          "pitch": 0.6052009399626641,
-          "rotation": 0,
-          "target": "10-chambre-2"
-        },
-        {
-          "yaw": 2.6773830998876704,
-          "pitch": 0.5798135898492447,
-          "rotation": 0,
-          "target": "11-wc-etage"
-        },
-        {
-          "yaw": -2.370787763406959,
-          "pitch": 0.3462358943017101,
-          "rotation": 0,
-          "target": "12-mezz2"
-        },
-        {
-          "yaw": -1.444920579852237,
-          "pitch": 0.8509543001461406,
-          "rotation": 0,
-          "target": "14-porte-entree"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-cave-",
-      "name": "cave ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": -1.5448558132957686,
-        "pitch": 0.19756081665140357,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.8096362722194765,
-          "pitch": 0.3705362205099636,
-          "rotation": 0,
-          "target": "2-acces-cave-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-acces-cave-",
-      "name": "acces cave ",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": 2.0103643119174155,
-        "pitch": -0.1332477083291348,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.7216626967440085,
-          "pitch": 0.16568692109911431,
-          "rotation": 0,
-          "target": "4-terrasse-n2"
-        },
-        {
-          "yaw": 1.0044218902532691,
-          "pitch": -0.09504538883318148,
-          "rotation": 0,
-          "target": "6-terrasse-coin-repas"
-        },
-        {
-          "yaw": 2.6232802349832696,
-          "pitch": 0.4503955683459928,
-          "rotation": 0,
-          "target": "3-coin-barbecue"
-        },
-        {
-          "yaw": -1.6430317282096851,
-          "pitch": 0.3143131512371333,
-          "rotation": 0,
-          "target": "1-cave-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "3-coin-barbecue",
-      "name": "coin barbecue",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": -2.2078788467559516,
-        "pitch": 0.20018627194843575,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.8594248717636361,
-          "pitch": 0.5061949981812273,
-          "rotation": 0,
-          "target": "2-acces-cave-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-terrasse-n2",
-      "name": "terrasse n2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": 1.1924348765997408,
-        "pitch": -0.09911718635106581,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.7901950109632798,
-          "pitch": -0.03445853234852336,
-          "rotation": 0,
-          "target": "6-terrasse-coin-repas"
-        },
-        {
-          "yaw": -0.92872681622665,
-          "pitch": 0.25632430100562154,
-          "rotation": 0,
-          "target": "2-acces-cave-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-brasero",
-      "name": "brasero",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.097470841436923,
-          "pitch": 0.3015029556849047,
-          "rotation": 0,
-          "target": "6-terrasse-coin-repas"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-terrasse-coin-repas",
-      "name": "terrasse coin repas",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": -1.7934572310899881,
-        "pitch": 0.318617928310303,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.7206237698321765,
-          "pitch": 0.5438419584584331,
-          "rotation": 0,
-          "target": "19-salle-a-manger"
-        },
-        {
-          "yaw": 0.31035511229566737,
-          "pitch": 0.2802174054717419,
-          "rotation": 0,
-          "target": "5-brasero"
-        },
-        {
-          "yaw": -1.7544839330606372,
-          "pitch": 0.28409816292239043,
-          "rotation": 0,
-          "target": "4-terrasse-n2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-chambre-3",
-      "name": "Chambre 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.130297114702321,
-          "pitch": 0.3766399120894697,
-          "rotation": 0,
-          "target": "0-mezz-sans-prenoms"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "8-buanderie",
-      "name": "buanderie",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": -2.5321978376271552,
-        "pitch": 0.11602517911589416,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.5263533429519676,
-          "pitch": 0.30774768622526416,
-          "rotation": 0,
-          "target": "0-mezz-sans-prenoms"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-salle-de-bain",
-      "name": "salle de bain",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": 2.293947256155554,
-        "pitch": 0.16792969486827403,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.4556033120173346,
-          "pitch": 0.34794735174617486,
-          "rotation": 0,
-          "target": "0-mezz-sans-prenoms"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "10-chambre-2",
-      "name": "chambre 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": -2.080035993394006,
-        "pitch": 0.17407826542582328,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.1496666302353855,
-          "pitch": 0.3589073879726534,
-          "rotation": 0,
-          "target": "0-mezz-sans-prenoms"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "11-wc-etage",
-      "name": "wc etage",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": -1.0318047610209362,
-        "pitch": 0.3694304132122461,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.4870021789599033,
-          "pitch": 0.4818462501582612,
-          "rotation": 0,
-          "target": "0-mezz-sans-prenoms"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "12-mezz2",
-      "name": "mezz2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.8293328531773074,
-          "pitch": 0.3616301817728722,
-          "rotation": 0,
-          "target": "0-mezz-sans-prenoms"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "13-mezzanine",
-      "name": "mezzanine",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "14-porte-entree",
-      "name": "porte entree",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": 2.0003742912236735,
-        "pitch": 0.02599575758537398,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.7653878700680963,
-          "pitch": 0.38064793153730747,
-          "rotation": 0,
-          "target": "15-entree"
-        },
-        {
-          "yaw": 2.1418125438452673,
-          "pitch": -0.3601410571525179,
-          "rotation": 0,
-          "target": "0-mezz-sans-prenoms"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "15-entree",
+      "id": "0-entree",
       "name": "entree",
       "levels": [
         {
@@ -729,232 +28,40 @@ var APP_DATA = {
       ],
       "faceSize": 3880,
       "initialViewParameters": {
-        "yaw": 1.5378263937174736,
-        "pitch": 0.15534880651252259,
-        "fov": 1.5066261967691337
+        "yaw": 1.5556892148896848,
+        "pitch": -0.03383806753953067,
+        "fov": 1.4415016771839477
       },
       "linkHotspots": [
         {
-          "yaw": 2.1733674152983173,
-          "pitch": 0.5038387876459822,
+          "yaw": 2.1409611533922943,
+          "pitch": 0.5421358312907181,
           "rotation": 0,
-          "target": "20-wc-rdc"
+          "target": "1-wc-rdc"
         },
         {
-          "yaw": 2.5450837153759007,
-          "pitch": 0.5874682369542299,
+          "yaw": 1.5537124347311764,
+          "pitch": 0.36181842372266004,
           "rotation": 0,
-          "target": "21-chambre-rdc"
+          "target": "3-salle-a-manger"
         },
         {
-          "yaw": 1.572318771693963,
-          "pitch": 0.2943910114122765,
+          "yaw": 2.536474608637567,
+          "pitch": 0.6477534889985588,
           "rotation": 0,
-          "target": "19-salle-a-manger"
+          "target": "7-chambre-rdc"
         },
         {
-          "yaw": -1.3843492677153755,
-          "pitch": 0.5429221438722074,
+          "yaw": -1.4035936833295644,
+          "pitch": 0.5261943609530473,
           "rotation": 0,
-          "target": "14-porte-entree"
+          "target": "4-porte-entree"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "16-cuisine2",
-      "name": "cuisine2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.0931364591508057,
-          "pitch": 0.4654976763097505,
-          "rotation": 0,
-          "target": "19-salle-a-manger"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "17-cuisine",
-      "name": "cuisine",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.4276152503069248,
-          "pitch": 0.36616444424968364,
-          "rotation": 0,
-          "target": "19-salle-a-manger"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "18-salon",
-      "name": "salon",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": -0.5015028442077103,
-        "pitch": 0.1554231924288274,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.551010534959909,
-          "pitch": 0.38051229016193133,
-          "rotation": 0,
-          "target": "19-salle-a-manger"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "19-salle-a-manger",
-      "name": "salle a manger",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        },
-        {
-          "tileSize": 512,
-          "size": 4096
-        }
-      ],
-      "faceSize": 3880,
-      "initialViewParameters": {
-        "yaw": 1.5337422284113256,
-        "pitch": 0.14540942349375996,
-        "fov": 1.5066261967691337
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.05732056722279211,
-          "pitch": 0.3689443170492659,
-          "rotation": 0,
-          "target": "16-cuisine2"
-        },
-        {
-          "yaw": 0.6994306500066045,
-          "pitch": 0.22629660598063595,
-          "rotation": 0,
-          "target": "17-cuisine"
-        },
-        {
-          "yaw": 2.840314620644227,
-          "pitch": 0.33907437429813214,
-          "rotation": 0,
-          "target": "18-salon"
-        },
-        {
-          "yaw": -1.5189496700022929,
-          "pitch": 0.5651064808918491,
-          "rotation": 0,
-          "target": "15-entree"
-        },
-        {
-          "yaw": 1.5337422836668075,
-          "pitch": 0.30851540333878447,
-          "rotation": 0,
-          "target": "6-terrasse-coin-repas"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "20-wc-rdc",
+      "id": "1-wc-rdc",
       "name": "wc rdc",
       "levels": [
         {
@@ -981,22 +88,255 @@ var APP_DATA = {
       ],
       "faceSize": 3880,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -1.4561310948052117,
+        "pitch": 0.8284095660421116,
+        "fov": 1.4415016771839477
       },
       "linkHotspots": [
         {
-          "yaw": 1.5518313679463462,
-          "pitch": 0.631543897127802,
+          "yaw": 1.5317736330626053,
+          "pitch": 0.5527587668909337,
           "rotation": 0,
-          "target": "15-entree"
+          "target": "0-entree"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "21-chambre-rdc",
+      "id": "2-salon",
+      "name": "salon",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": -0.8810697123657203,
+        "pitch": 0.0017597422540145402,
+        "fov": 1.44312574168388
+      },
+      "linkHotspots": [],
+      "infoHotspots": []
+    },
+    {
+      "id": "3-salle-a-manger",
+      "name": "salle a manger",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": 1.5774875057374373,
+        "pitch": 0.11280894984128764,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.538860923861824,
+          "pitch": 0.3276597825822236,
+          "rotation": 0,
+          "target": "15-terrasse-coin-repas"
+        },
+        {
+          "yaw": 0.05823790134424911,
+          "pitch": 0.4164348745940636,
+          "rotation": 0,
+          "target": "5-cuisine2"
+        },
+        {
+          "yaw": 0.8043627253076231,
+          "pitch": 0.3068455953954796,
+          "rotation": 0,
+          "target": "6-cuisine"
+        },
+        {
+          "yaw": -1.5242683187598125,
+          "pitch": 0.5128049253671669,
+          "rotation": 0,
+          "target": "0-entree"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "4-porte-entree",
+      "name": "porte entree",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": 2.1440983576909964,
+        "pitch": -0.3338418268970571,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.7452379606264206,
+          "pitch": 0.4450983490605509,
+          "rotation": 0,
+          "target": "0-entree"
+        },
+        {
+          "yaw": 1.6626616265321665,
+          "pitch": 0.19704491740778707,
+          "rotation": 0,
+          "target": "3-salle-a-manger"
+        },
+        {
+          "yaw": 2.1241774959636697,
+          "pitch": -0.3449304414642569,
+          "rotation": 0,
+          "target": "11-mezzanine"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "5-cuisine2",
+      "name": "cuisine2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": 1.7174115766754738,
+        "pitch": 0.2765730053837583,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.07090540045628124,
+          "pitch": 0.3693564079185201,
+          "rotation": 0,
+          "target": "3-salle-a-manger"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "6-cuisine",
+      "name": "cuisine",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": 1.2036898366654647,
+        "pitch": 0.055151042144629514,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.5328684465376607,
+          "pitch": 1.0194460958879858,
+          "rotation": 0,
+          "target": "15-terrasse-coin-repas"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "7-chambre-rdc",
       "name": "chambre rdc",
       "levels": [
         {
@@ -1023,16 +363,634 @@ var APP_DATA = {
       ],
       "faceSize": 3880,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -1.6215567339279513,
+        "pitch": 0.13286387425750945,
+        "fov": 1.5066261967691337
       },
       "linkHotspots": [
         {
-          "yaw": 0.23131912062942916,
-          "pitch": 0.4797791748569775,
+          "yaw": 0.2496752517833336,
+          "pitch": 0.47721040468577236,
           "rotation": 0,
-          "target": "15-entree"
+          "target": "0-entree"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-wc-etage",
+      "name": "Wc etage",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": -1.1844659606556451,
+        "pitch": 0.46956704700265206,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.5572918400996265,
+          "pitch": 0.5746363336715561,
+          "rotation": 0,
+          "target": "11-mezzanine"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-salle-de-bain",
+      "name": "Salle de bain",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": 2.2260944434274386,
+        "pitch": 0.28728761149151083,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.5567063887046846,
+          "pitch": 0.48096524035496735,
+          "rotation": 0,
+          "target": "11-mezzanine"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "10-mezzanine",
+      "name": "Mezzanine.",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": 0.7055489926321066,
+        "pitch": 0.0175480588642003,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.9186343184547976,
+          "pitch": 0.4401456367625336,
+          "rotation": 0,
+          "target": "11-mezzanine"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "11-mezzanine",
+      "name": "Mezzanine",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": 0.6625167922890558,
+        "pitch": 0.2130182886331511,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.4402101369422589,
+          "pitch": 0.8493374556826598,
+          "rotation": 0,
+          "target": "4-porte-entree"
+        },
+        {
+          "yaw": -0.2141031179586399,
+          "pitch": 0.403985955474063,
+          "rotation": 0,
+          "target": "9-salle-de-bain"
+        },
+        {
+          "yaw": 0.1404779145118944,
+          "pitch": 0.3934345625721889,
+          "rotation": 0,
+          "target": "14-buanderie"
+        },
+        {
+          "yaw": 0.8328044039691029,
+          "pitch": 0.5261426529281934,
+          "rotation": 0,
+          "target": "12-chambre-3"
+        },
+        {
+          "yaw": 1.4515217291324225,
+          "pitch": 0.6598658506275719,
+          "rotation": 0,
+          "target": "13-chambre-2"
+        },
+        {
+          "yaw": 2.6972629867069715,
+          "pitch": 0.5682317972985054,
+          "rotation": 0,
+          "target": "8-wc-etage"
+        },
+        {
+          "yaw": -2.365025168822431,
+          "pitch": 0.3894194222314127,
+          "rotation": 0,
+          "target": "10-mezzanine"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "12-chambre-3",
+      "name": "Chambre 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": -1.4830586655747062,
+        "pitch": 0.14539820201765608,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.14301938969124,
+          "pitch": 0.40116346062636055,
+          "rotation": 0,
+          "target": "11-mezzanine"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-chambre-2",
+      "name": "Chambre 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": 2.540864448300983,
+        "pitch": 0.14988569266721186,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.1787188296099,
+          "pitch": 0.39636490250818923,
+          "rotation": 0,
+          "target": "11-mezzanine"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-buanderie",
+      "name": "Buanderie",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": -2.162070753388214,
+        "pitch": 0.30855675621689826,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.413013671826743,
+          "pitch": 0.6467863116702866,
+          "rotation": 0,
+          "target": "11-mezzanine"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "15-terrasse-coin-repas",
+      "name": "Terrasse coin repas",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": -1.805937118024394,
+        "pitch": 0.058902720861482294,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.7458803954909712,
+          "pitch": 0.2615846593353659,
+          "rotation": 0,
+          "target": "17-seconde-terrrasse"
+        },
+        {
+          "yaw": 0.32488124660286744,
+          "pitch": 0.27745593623481923,
+          "rotation": 0,
+          "target": "16-terrasse-brasero"
+        },
+        {
+          "yaw": 1.706024025146597,
+          "pitch": 0.5681463732944714,
+          "rotation": 0,
+          "target": "3-salle-a-manger"
+        },
+        {
+          "yaw": 2.6495020328896164,
+          "pitch": 0.3144769574938149,
+          "rotation": 0,
+          "target": "6-cuisine"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "16-terrasse-brasero",
+      "name": "Terrasse brasero",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": -0.5792606274186642,
+        "pitch": -0.032589252176371986,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.1226430623322514,
+          "pitch": 0.3277833980082594,
+          "rotation": 0,
+          "target": "15-terrasse-coin-repas"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17-seconde-terrrasse",
+      "name": "Seconde terrrasse",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": 1.8842423764797065,
+        "pitch": -0.17111722612435543,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.010842272894406,
+          "pitch": 0.4057850032682211,
+          "rotation": 0,
+          "target": "20-acces-barbecue-cave"
+        },
+        {
+          "yaw": 1.8009418143608595,
+          "pitch": -0.05068720422938888,
+          "rotation": 0,
+          "target": "15-terrasse-coin-repas"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "18-cave",
+      "name": "Cave",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": -1.3869177236959196,
+        "pitch": 0.07233326867895862,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.8047419862844691,
+          "pitch": 0.31842786703722403,
+          "rotation": 0,
+          "target": "20-acces-barbecue-cave"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "19-barbecue-et-four-a-pizza",
+      "name": "Barbecue et four à pizza",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": -2.184963539253454,
+        "pitch": 0.11796171952281753,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.0377214739227796,
+          "pitch": 0.6136356945484955,
+          "rotation": 0,
+          "target": "20-acces-barbecue-cave"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "20-acces-barbecue-cave",
+      "name": "Acces barbecue cave",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        },
+        {
+          "tileSize": 512,
+          "size": 4096
+        }
+      ],
+      "faceSize": 3880,
+      "initialViewParameters": {
+        "yaw": 1.8562738363293096,
+        "pitch": -0.10227730811674185,
+        "fov": 1.5066261967691337
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.64012409625085,
+          "pitch": 0.4865541909997262,
+          "rotation": 0,
+          "target": "19-barbecue-et-four-a-pizza"
+        },
+        {
+          "yaw": -1.6302619220215497,
+          "pitch": 0.3936838731907315,
+          "rotation": 0,
+          "target": "18-cave"
+        },
+        {
+          "yaw": 1.1321402945384218,
+          "pitch": 0.0959243506413543,
+          "rotation": 0,
+          "target": "17-seconde-terrrasse"
         }
       ],
       "infoHotspots": []
@@ -1042,7 +1000,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
+    "fullscreenButton": true,
     "viewControlButtons": false
   }
 };
