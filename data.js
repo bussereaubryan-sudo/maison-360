@@ -28,9 +28,9 @@ var APP_DATA = {
       ],
       "faceSize": 3880,
       "initialViewParameters": {
-        "yaw": 1.5556892148896848,
-        "pitch": -0.03383806753953067,
-        "fov": 1.4415016771839477
+        "yaw": 1.6159468035240652,
+        "pitch": 0.1634239974206082,
+        "fov": 1.5066261967691337
       },
       "linkHotspots": [
         {
@@ -134,7 +134,26 @@ var APP_DATA = {
         "pitch": 0.0017597422540145402,
         "fov": 1.44312574168388
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": -0.5303731108397294,
+          "pitch": 0.39339638935545196,
+          "rotation": 0,
+          "target": "3-salle-a-manger"
+        },
+        {
+          "yaw": 0.21390229875769862,
+          "pitch": 0.3372789842246249,
+          "rotation": 0,
+          "target": "15-terrasse-coin-repas"
+        },
+        {
+          "yaw": 0.013938550537446304,
+          "pitch": 0.17120111575110997,
+          "rotation": 0,
+          "target": "6-cuisine"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -189,10 +208,22 @@ var APP_DATA = {
           "target": "6-cuisine"
         },
         {
-          "yaw": -1.5242683187598125,
-          "pitch": 0.5128049253671669,
+          "yaw": -1.528142420962869,
+          "pitch": 0.6043620017031195,
           "rotation": 0,
           "target": "0-entree"
+        },
+        {
+          "yaw": 2.8765802213522518,
+          "pitch": 0.3825362478845289,
+          "rotation": 0,
+          "target": "2-salon"
+        },
+        {
+          "yaw": -1.4917968246241529,
+          "pitch": 0.22174969271859268,
+          "rotation": 0,
+          "target": "4-porte-entree"
         }
       ],
       "infoHotspots": []
@@ -329,6 +360,18 @@ var APP_DATA = {
         {
           "yaw": -1.5328684465376607,
           "pitch": 1.0194460958879858,
+          "rotation": 0,
+          "target": "15-terrasse-coin-repas"
+        },
+        {
+          "yaw": 0.4702716165670999,
+          "pitch": 0.3748318963813091,
+          "rotation": 0,
+          "target": "3-salle-a-manger"
+        },
+        {
+          "yaw": 0.0036845473755189317,
+          "pitch": 0.3982933519837317,
           "rotation": 0,
           "target": "15-terrasse-coin-repas"
         }
@@ -837,8 +880,8 @@ var APP_DATA = {
       ],
       "faceSize": 3880,
       "initialViewParameters": {
-        "yaw": 1.8842423764797065,
-        "pitch": -0.17111722612435543,
+        "yaw": -1.2757331717732292,
+        "pitch": 0.1522684300873216,
         "fov": 1.5066261967691337
       },
       "linkHotspots": [
